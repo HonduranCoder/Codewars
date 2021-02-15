@@ -80,4 +80,3 @@ function odds(values){
 repeatStr = (n, s) => s.repeat(n)
 
 //Well of Ideas 6kyu
-function
