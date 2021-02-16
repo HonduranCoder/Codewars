@@ -13,7 +13,6 @@ multiply(4,5)
 //remove character 8kyu
 function removeChar(str){
   return str.slice(1,-1)
-  
 }
 
 //Keep Hydrated 8kyu
