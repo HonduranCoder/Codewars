@@ -54,7 +54,7 @@ function SeriesSum(n)
     }
   }
   return result.toFixed(2)
-};
+}
 
 //Power 8kyu
 function numberToPower(number, power){
