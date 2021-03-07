@@ -71,4 +71,4 @@ whatday=n=>[,'Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturd
 
 //Sentence Smash 8kyu
 // Smash Words
-const smash = words => words.join(' ');
+const smash = words => words.join(' ')
