@@ -8,7 +8,7 @@ function multiply(a, b){
   return a * b
 }
 
-multiply(4,5);
+multiply(4,5)
 
 //remove character 8kyu
 function removeChar(str){
@@ -32,13 +32,13 @@ function solution(str, ending){
 }
 
 function sumStr(a,b) {
-return ((+a) + (+b)).toString();
+return ((+a) + (+b)).toString()
 
 }
 
 //Get Number From String 8kyu
 function getNumberFromString(s) {
-  return Number(s.match(/\d/g).join(''));
+  return Number(s.match(/\d/g).join(''))
 }
 
 //Sum of the first nth term of series 7kyu
@@ -59,9 +59,9 @@ function SeriesSum(n)
 
 //Power 8kyu
 function numberToPower(number, power){
-   let result = 1;
+   let result = 1
     for (let count = 0; count < power; count++) {
-    result *= number;
+    result *= number
     }
-    return result;
+    return result
   }
