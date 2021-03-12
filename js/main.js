@@ -35,3 +35,8 @@ function sumStr(a,b) {
 return ((+a) + (+b)).toString();
 
 }
+
+//Get Number From String 8kyu
+function getNumberFromString(s) {
+  return Number(s.match(/\d/g).join(''));
+}
