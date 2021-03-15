@@ -28,7 +28,7 @@ function removeChar(str){
 
 //String Ends with 7kyu
 function solution(str, ending){
- return str.indexOf(ending, str.length - ending.length) !== -1;
+ return str.indexOf(ending, str.length - ending.length) !== -1
 }
 
 function sumStr(a,b) {
