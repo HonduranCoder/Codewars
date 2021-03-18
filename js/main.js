@@ -90,4 +90,20 @@ function well(array) {
   return count > 2 ? 'I smell a series!' : count >= 1 ? 'Publish!' : 'Fail!';
 }
 
-//Maximum subarray sum
+//Maximum subarray sum 5kyu
+function maxSequence(arr){
+  let currentSum = 0
+  let maxSum = 0
+
+  if(arr.length === 0){
+      return 0
+  }
+
+  arr.forEach(a => {
+    currentSum = Math.max(a, currentSum + a)
+    maxSum = Math.max(maxSum, currentSum)
+  })
+  return maxSum
+}
+
+maxSequence([-2, -1, -3, -4, -1, -2, -1, -5, -4])
