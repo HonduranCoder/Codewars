@@ -116,3 +116,5 @@ function printError(s){
    splitString.map((x) =>  dic.includes(x) === false ? error += 1 : error += 0
     return `${error}/${s.length}`
 }
+
+function printerError(s) {
