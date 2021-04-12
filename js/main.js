@@ -136,3 +136,5 @@ function filter_list(l) {
 
 //Find Maximum and Minimum Values of a List
 let min = function(list){
+  return Math.min(...list)
+}
