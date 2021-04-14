@@ -141,3 +141,5 @@ let min = function(list){
 let max = function(list){
     return Math.max(...list)
 }
+
+///Opposite Number
