@@ -18,7 +18,7 @@ function removeChar(str){
 //Keep Hydrated 8kyu
 
 function litres(time) {
-  return Math.floor(time/2);
+  return Math.floor(time/2)
 }
 
 //8kyu
