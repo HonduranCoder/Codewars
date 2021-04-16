@@ -143,3 +143,6 @@ let max = function(list){
 }
 
 //Opposite Number
+function opposite(n) {
+  return -n
+}
