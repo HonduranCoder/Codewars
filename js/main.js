@@ -146,3 +146,5 @@ let max = function(list){
 function opposite(n) {
   return -n
 }
+
+//Beginner-Reduce but Grow 
