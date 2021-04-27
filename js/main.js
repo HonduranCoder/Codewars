@@ -158,3 +158,9 @@ function descendingOrder(n){
 }
 
 //Two Fighters, One Winner
+function Fighter(name, health, damagePerAttack) {
+        this.name = name;
+        this.health = health;
+        this.damagePerAttack = damagePerAttack;
+        this.toString = function() { return this.name; }
+}
