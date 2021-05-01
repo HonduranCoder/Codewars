@@ -177,4 +177,9 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
           battlev2();
         } else {
           console.log(`${firstAttacker} isn't fighting right now!`)
-        }    
+        }
+        function battlev1() {
+     while (firstAttacker.health > 0 && fighter2.health > 0) {
+       fightv1();
+     }
+   }    
