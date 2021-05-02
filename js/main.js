@@ -185,33 +185,33 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
    }
 
    function fightv1() {
-   fighter2.health -= firstAttacker.damagePerAttack;
+   fighter2.health -= firstAttacker.damagePerAttack
    result = `${firstAttacker.name} attacks ${fighter2.name}; ${fighter2.name} now has ${fighter2.health} health.`;
    console.log(result);
      if(fighter2.health <= 0) {
-       result = `${firstAttacker.name} attacks ${fighter2.name}; ${fighter2.name} now has ${fighter2.health} health and is dead. ${firstAttacker.name} wins`;
-       winner = firstAttacker.name;
-       console.log(result);
-       return winner;
+       result = `${firstAttacker.name} attacks ${fighter2.name}; ${fighter2.name} now has ${fighter2.health} health and is dead. ${firstAttacker.name} wins`
+       winner = firstAttacker.name
+       console.log(result)
+       return winner
      } else if (firstAttacker.health <= 0) {
-       result = `${fighter2.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health and is dead. ${fighter2.name} wins`;
-       winner = fighter2.name;
-       console.log(result);
-       return winner;
+       result = `${fighter2.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health and is dead. ${fighter2.name} wins`
+       winner = fighter2.name
+       console.log(result)
+       return winner
      }
 
      firstAttacker.health -= fighter2.damagePerAttack;
-   result = `${fighter2.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health.`;
+   result = `${fighter2.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health.`
    console.log(result);
      if(firstAttacker.health <= 0) {
-       result = `${fighter2.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health and is dead. ${fighter2.name} wins`;
-       winner = fighter2.name;
-       console.log(result);
-       return winner;
+       result = `${fighter2.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health and is dead. ${fighter2.name} wins`
+       winner = fighter2.name
+       console.log(result)
+       return winner
      } else if (fighter2.health <= 0) {
-       result = `${firstAttacker.name} attacks ${fighter2.name}; ${fighter2.name} now has ${fighter2.health} health and is dead. ${firstAttacker.name} wins`;
-       winner = firstAttacker.name;
-       console.log(result);
+       result = `${firstAttacker.name} attacks ${fighter2.name}; ${fighter2.name} now has ${fighter2.health} health and is dead. ${firstAttacker.name} wins`
+       winner = firstAttacker.name
+       console.log(result)
        return winner;
-     }
+
  }
