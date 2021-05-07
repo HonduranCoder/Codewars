@@ -248,3 +248,4 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
     }
     return winner
 }
+     function fightv2() {
