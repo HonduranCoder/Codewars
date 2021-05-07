@@ -231,19 +231,19 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
         return winner
       }
 
-    firstAttacker.health -= fighter1.damagePerAttack;
-    result = `${fighter1.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health.`;
-    console.log(result);
+    firstAttacker.health -= fighter1.damagePerAttack
+    result = `${fighter1.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health.`
+    console.log(result)
       if(fighter1.health <= 0) {
-        result = `${firstAttacker.name} attacks ${fighter1.name}; ${fighter1.name} now has ${fighter1.health} health and is dead. ${firstAttacker.name} wins`;
-        winner = firstAttacker.name;
-        console.log(result);
-        return winner;
+        result = `${firstAttacker.name} attacks ${fighter1.name}; ${fighter1.name} now has ${fighter1.health} health and is dead. ${firstAttacker.name} wins`
+        winner = firstAttacker.name
+        console.log(result)
+        return winner
       } else if (firstAttacker.health <= 0) {
-        result = `${fighter1.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health and is dead. ${fighter1.name} wins`;
-        winner = fighter1.name;
-        console.log(result);
-        return winner;
+        result = `${fighter1.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health and is dead. ${fighter1.name} wins`
+        winner = fighter1.name
+        console.log(result)
+        return winner
       }
     }
     return winner
