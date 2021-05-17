@@ -291,3 +291,5 @@ function patter(n){
   }
     return res.join('\n')
 }
+
+//Find the perfect square
