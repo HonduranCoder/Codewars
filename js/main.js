@@ -293,4 +293,4 @@ function patter(n){
 }
 
 //Find the perfect square
-function pattern(n){
+function findNextSquare(sq) {
