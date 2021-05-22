@@ -296,3 +296,4 @@ function patter(n){
 function findNextSquare(sq) {
  var sqRt = Math.sqrt( sq )
  if ( NaN === sqRt || sqRt !== parseInt( sqRt, 10 ) ) {
+return -1
