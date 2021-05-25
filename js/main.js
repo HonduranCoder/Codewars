@@ -298,4 +298,4 @@ function findNextSquare(sq) {
  if ( NaN === sqRt || sqRt !== parseInt( sqRt, 10 ) ) {
 return -1
 }
-return Math.pow( sqRt + 1, 2 );
+return Math.pow( sqRt + 1, 2 )
