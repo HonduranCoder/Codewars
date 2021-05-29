@@ -302,3 +302,4 @@ return Math.pow( sqRt + 1, 2 )
 }
 
 //Jaden Casing Strings
+String.prototype.toJadenCase = function () {
