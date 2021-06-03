@@ -307,4 +307,5 @@ String.prototype.toJadenCase = function () {
   map(w => w[0].toUpperCase() + w.slice(1)).join(' ')
 }
 
-//Beginner Series 33 Sum of Numbers 
+//Beginner Series 33 Sum of Numbers
+function getSum(a,b){
