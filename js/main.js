@@ -293,7 +293,7 @@ function patter(n){
 }
 
 //Find the perfect square
-function findNextSquare(sq) {
+function findNextSquare(sq) {j
  var sqRt = Math.sqrt( sq )
  if ( NaN === sqRt || sqRt !== parseInt( sqRt, 10 ) ) {
 return -1
@@ -310,3 +310,4 @@ String.prototype.toJadenCase = function () {
 //Beginner Series 33 Sum of Numbers
 function getSum(a,b){
   let count = 0
+  if (a == b) return a
