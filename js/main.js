@@ -320,3 +320,4 @@ function getSum(a,b){
       count += a
     }
   } else if (a > b){
+for(; b <= a; b++){
