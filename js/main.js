@@ -307,7 +307,7 @@ String.prototype.toJadenCase = function () {
   map(w => w[0].toUpperCase() + w.slice(1)).join(' ')
 }
 
-//Beginner Series 33 Sum of Numbers
+//Beginner Series #3 Sum of Numbers
 function getSum(a,b){
   let count = 0
   if (a == b) return a
@@ -326,3 +326,6 @@ for(; b <= a; b++){
 }
 return count
 }
+
+//Replave Every nth
+function replaceNth(text, n, oldValue, newValue) {}
