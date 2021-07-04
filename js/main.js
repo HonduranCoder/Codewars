@@ -329,3 +329,4 @@ return count
 
 //Replave Every nth
 function replaceNth(text, n, oldValue, newValue) {}
+let i = 0
