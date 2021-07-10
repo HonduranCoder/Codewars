@@ -339,3 +339,4 @@ function toCamelCase(str){
 }
 
 //Exes ands Ohs
+function XO(str) {
