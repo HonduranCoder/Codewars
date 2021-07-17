@@ -344,3 +344,5 @@ function XO(str) {
   let o = str.match(/o/gi)
   return (x && x.length) === (o && o.length);
 }
+
+//Exclamation marks series #13
