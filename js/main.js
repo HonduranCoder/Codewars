@@ -346,3 +346,4 @@ function XO(str) {
 }
 
 //Exclamation marks series #13
+function
