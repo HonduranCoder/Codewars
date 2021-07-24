@@ -347,5 +347,5 @@ function XO(str) {
 
 //Exclamation marks series #13
 function product(s){
-  return (s.match)
+  return (s.match) (/\?/g)||[]).
 }
