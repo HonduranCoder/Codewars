@@ -365,3 +365,4 @@ function greet(name) {
 //Autocomplete!Yay!
 function autocomplete(input, d){
   input=input.replace(/[^a-zA-Z]/gi,'')
+  const arr=[];
