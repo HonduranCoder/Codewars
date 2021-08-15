@@ -373,4 +373,5 @@ function autocomplete(input, d){
 }
 
 //Backspaces in string
-function clean_string(s) 
+function clean_string(s) {
+  s=s.split``
