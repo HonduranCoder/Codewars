@@ -375,3 +375,4 @@ function autocomplete(input, d){
 //Backspaces in string
 function clean_string(s) {
   s=s.split``
+  for (let i=0;i<s.length;i++){
