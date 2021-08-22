@@ -379,3 +379,4 @@ function clean_string(s) {
     if (s[i]==='#'){
       s[i]=''
       s[i-1]=''
+      s=s.filter(v=>v!=='')
