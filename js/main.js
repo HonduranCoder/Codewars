@@ -380,3 +380,8 @@ function clean_string(s) {
       s[i]=''
       s[i-1]=''
       s=s.filter(v=>v!=='')
+      i-=2
+    }
+  }
+  return s.join``
+};
