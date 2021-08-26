@@ -385,3 +385,5 @@ function clean_string(s) {
   }
   return s.join``
 };
+
+//A sString of Sorts
